@@ -1,0 +1,296 @@
+/* default theme */
+:root {
+  --clr-primary: #800080;
+  --clr-danger: #ff7782;
+  --clr-success: #41f1b6;
+  --clr-white: #fff;
+  --clr-info-dark: #7d8da1;
+  --clr-info-light: #dce1eb;
+  --clr-dark: #363949;
+  --clr-warning: #ff4edc;
+  --clr-light: rgba(132, 139, 200, 0.18);
+  --clr-primary-variant: #111e88;
+  --clr-dark-variant: #677483;
+  --clr-color-background: #f6f6f9;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 2rem 3rem var(--clr-light);
+
+}
+
+/* dark theme */
+.dark-theme-variables {
+  --clr-color-background: #181a1e;
+  --clr-white: #202528;
+  --clr-light: rgba(0, 0, 0, 0.4);
+  --clr-dark: #edeffd;
+  --clr-dark-variant: #677483;
+  --box-shadow: 0 2rem 3rem var(--clr-light)
+}
+
+/* red velvet theme */
+.red-theme-variables {
+  --clr-primary: red;
+  --clr-danger: #ff4c4c; /* Sedikit lebih cerah dari warna merah utama */
+  --clr-success: #41f1b6; /* Tetap sama seperti di tema ungu */
+  --clr-white: #fff;
+  --clr-info-dark: #7d8da1; /* Tetap sama seperti di tema ungu */
+  --clr-info-light: #dce1eb; /* Tetap sama seperti di tema ungu */
+  --clr-dark: #363949; /* Tetap sama seperti di tema ungu */
+  --clr-warning: #ff4c4c; /* Menyesuaikan dengan tema merah */
+  --clr-light: rgba(255, 182, 182, 0.18); /* Variasi terang dari merah */
+  --clr-primary-variant: #d32f2f; /* Variasi yang lebih gelap dari warna merah utama */
+  --clr-dark-variant: #b71c1c; /* Variasi lebih gelap dari merah */
+  --clr-color-background: #fce4ec; /* Warna latar belakang yang lembut dengan nuansa merah muda */
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 2rem 3rem var(--clr-light);
+}
+
+/* * black forest cake theme */
+.black-forest-theme-variables {
+  --clr-primary: #3e2723; /* Warna coklat gelap, mirip dengan krim coklat pada kue */
+  --clr-danger: #c62828; /* Merah marun, seperti buah ceri pada kue */
+  --clr-success: #4caf50; /* Hijau untuk kesuksesan, tetap sama */
+  --clr-white: #f5f5f5; /* Warna krim lembut, seperti krim kue */
+  --clr-info-dark: #6d4c41; /* Coklat tua untuk informasi gelap */
+  --clr-info-light: #bfaeae; /* Coklat muda untuk informasi ringan */
+  --clr-dark: #2c2c2c; /* Warna gelap untuk teks dan latar belakang */
+  --clr-warning: #d32f2f; /* Merah lebih cerah untuk peringatan */
+  --clr-light: rgba(255, 255, 255, 0.15); /* Warna terang dari krim, digunakan untuk bayangan */
+  --clr-primary-variant: #2c190e; /* Variasi gelap dari coklat utama */
+  --clr-dark-variant: #5d4037; /* Variasi coklat lebih gelap untuk efek kontras */
+  --clr-color-background: #e0e0e0; /* Warna latar belakang yang lembut, seperti lapisan kue */
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 2rem 3rem var(--clr-light); /* Bayangan untuk menambahkan efek kedalaman */
+}
+
+/* lavender theme */
+.lavender-theme-variables {
+  --clr-primary: #9b59b6; /* Lavender */
+  --clr-danger: #e57373; /* Lavender blush for a softer red */
+  --clr-success: #81c784; /* Soft green for success */
+  --clr-white: #fff;
+  --clr-info-dark: #6a1b9a; /* Darker purple for information */
+  --clr-info-light: #d1c4e9; /* Light lavender for informational elements */
+  --clr-dark: #3e1f47; /* Dark purple for text */
+  --clr-warning: #ffb74d; /* Soft orange for warnings */
+  --clr-light: rgba(158, 103, 199, 0.2); /* Light lavender tint */
+  --clr-primary-variant: #8e24aa; /* A darker lavender variant */
+  --clr-dark-variant: #4a148c; /* A deeper purple variant */
+  --clr-color-background: #f3e5f5; /* Very light lavender background */
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 2rem 3rem var(--clr-light);
+}
+/* Sidebar  */
+
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.aside-main-bg{
+  background:linear-gradient(25deg, var(--clr-success) 30%, var(--clr-primary) 70%);
+  color:white !important;
+  font-weight:bolder;
+  height:100%;
+  background-size: 200% 200%;
+  animation: gradientMove 5s ease infinite;
+}
+
+
+
+/* End Sidebar  */
+
+/* Datatables  */
+
+.dataTables_wrapper .dataTables_paginate .paginate_button .page-link {
+    background-color: var(--clr-primary) !important;
+    color: white !important;
+    border: 1px solid var(--clr-primary);
+    margin: 2px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+/* End datatables  */
+
+
+  /* Other  */
+
+  .nav-icon {
+      color: #ffffff; /* Warna ikon */
+      text-shadow: 
+          0 0 5px #c4bebe,   /* Cahaya putih lembut */
+          0 0 15px #8f8989,  /* Cahaya neon merah muda */
+          0 0 20px #b956b9,  /* Cahaya neon merah muda lebih kuat */
+          0 0 30px #774d77,  /* Cahaya neon merah muda sangat kuat */
+          0 0 35px #a368a3;  /* Cahaya neon merah muda sangat kuat */
+  }
+
+  .btn {
+    background: var(--clr-primary);
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .active {
+    background: #ca00c0 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+  }
+
+  .active:hover {
+    background: #fff !important;
+    color: #ca00c0 !important;
+    font-weight: bold !important;
+  }
+
+  .nav-link:hover {
+    background: #fff !important;
+    color: #ca00c0 !important;
+    font-weight: bold !important;
+  }
+
+  .text-color-purple {
+    color: var(--clr-primary);
+    font-weight: bold;
+  }
+
+  .background-color-purple {
+    background: var(--clr-primary);
+    color: #fff !important;
+    font-weight: bold !important;
+  }
+
+  .background-color-purple:hover {
+    background: #fff;
+    color: var(--clr-primary) !important;
+    font-weight: bold !important;
+  }
+
+  .btn:hover {
+    background: #fff;
+    color: var(--clr-primary);
+    font-weight: bold;
+  }
+
+  .star-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    font-size: 2em;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .star-button.checked {
+    border-radius: 50%;
+    background-color: gold;
+    color: white;
+  }
+
+  .star-button-clicked {
+    color: gold;
+  }
+
+  .favorite-menu {
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: gold;
+  }
+
+  .no-outline {
+    outline: none !important;
+  }
+
+  .select2-selection--single{
+    height:40px !important;
+  }
+  .background-image {
+      width: 800px;
+      /* height: 400px; */
+      background-image: url('../../../dist/img/nerp-sales.png'); /* Replace with your image path */
+      background-size: cover; /* Ensures the image covers the entire div */
+      background-position: center; /* Centers the image within the div */
+      margin: auto; /* Center the div horizontally */
+      margin-top: 50px; /* Example: Adds some top margin */
+  }
+  .modal {
+    margin-top:30px;
+  }
+
+/* End Other  */
+
+
+
+/* Modal upload Right Side   */
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 300px;
+  /* height: 100%; */
+  right: 0;
+  top: 0;
+}
+
+.modal.right .modal-content {
+  /* height: 100%; */
+  border: 0;
+}
+
+.modal.right .modal-body {
+  overflow-y: auto;
+}
+
+.modal.right.fade .modal-dialog {
+  transition: transform 0.3s ease-out;
+  transform: translate3d(100%, 0, 0);
+}
+
+.modal.right.fade.show .modal-dialog {
+  transform: translate3d(0, 0, 0);
+}
+
+/* End Modal upload Right Side   */
